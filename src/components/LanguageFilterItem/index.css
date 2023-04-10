@@ -1,0 +1,32 @@
+.language-container {
+  display: flex;
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+.language {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+  border: none;
+}
+
+.active-language {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+}

@@ -1,0 +1,35 @@
+.popular-heading {
+  font-family: 'lobster';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 400px;
+}
+
+.language-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
